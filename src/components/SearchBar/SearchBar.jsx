@@ -1,9 +1,12 @@
-function SearchBar(){
+import "./SearchBar.css"
 
-    return   (
-    
-        <input type="text" ></input>
-    )
-    }
-        
-    export default SearchBar;
+function SearchBar() {
+  return (
+    <div>
+        <input className="SearchBar" type="text" placeholder="Search Bar"></input>
+    </div>
+  );
+}
+
+export default SearchBar;
+

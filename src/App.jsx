@@ -14,7 +14,8 @@ function App() {
       <Header/>
       <SearchBar/>
       <EmployeeList/>
-          </>
+      
+    </>
   )
 }
 
